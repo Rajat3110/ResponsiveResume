@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    padding: 47px;
+}
+.profile{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 10px;
+border-bottom:1px dashed black;
+}
+.co{
+border-bottom: 1px dashed black;;
+}
+section{
+display: flex;
+flex-direction: column;
+}
+
+.Exp {
+border-bottom: 1px dashed black;
+}
+.Exp section{
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-direction: row;
+}
+.sec h4{
+    padding: 0%;
+    margin: 0%;
+}
+#p {
+display: flex;
+flex-direction: row;
+}
+.skill{
+border-bottom: 1px dashed black;
+}
+.pc {
+border-bottom: 1px dashed black;
+}
+#imga {
+border-radius: 50%;
+}
+#pa {
+padding: 2px 10px;
+}
+#h{
+font-size: 50px;
+margin-bottom: 20px;
+}
+#ho{
+display: flex;
+flex-direction: row;
+}
+@media only screen and (max-width: 768px)
+{
+body {
+    padding: 10px;
+}
+#h{
+    font-size: 40px;
+}
+
+.profile{
+display: flex;
+flex-direction: column-reverse;
+
+
+}
+}
